@@ -1,0 +1,26 @@
+.success{
+    color:green;
+}
+
+.error{
+    color:red;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.circle {
+    position: fixed;
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    pointer-events: none;
+    left: -100px;
+    top: 50%;
+    mix-blend-mode: difference;
+    background-color: transparent;
+    z-index: 10000;
+    border: 2px solid red;
+    height: 60px;
+    width: 60px;
+  }
